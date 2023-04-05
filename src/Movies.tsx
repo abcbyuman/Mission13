@@ -6,18 +6,19 @@ const mds = data.MovieDataSampleList;
 function MovieList() {
   const [listOMovies, setListOMovies] = useState(mds);
 
-  const addMovie = () => {};
-  setListOMovies([
-    ...mds,
-    {
-      MovieId: 6,
-      Category: 'Action/Adventure',
-      Title: 'Batman Returns',
-      Year: 1992,
-      Director: 'Tim Burton',
-      Rating: 'PG-13',
-    },
-  ]);
+  const addMovie = () => {
+    setListOMovies([
+      ...mds,
+      {
+        MovieId: 6,
+        Category: 'Action/Adventure',
+        Title: 'Batman Returns',
+        Year: 1992,
+        Director: 'Tim Burton',
+        Rating: 'PG-13',
+      },
+    ]);
+  };
   return (
     <>
       <div>
@@ -32,11 +33,11 @@ function MovieList() {
               <th>Year</th>
               <th>Director</th>
               <th>Rating</th>
-              <th>Caategory</th>
+              <th>Category</th>
             </tr>
           </thead>
           <tbody>
-            {mds.map((m) => (
+            {listOMovies.map((m) => (
               <tr key={m.MovieId}>
                 <td>{m.Title}</td>
                 <td>{m.Year}</td>
@@ -49,7 +50,7 @@ function MovieList() {
         </table>
       </div>
 
-      <button className="btn btn=primary" onClick={addMovie}>
+      <button className="btn btn-primary" onClick={addMovie}>
         Add Movie
       </button>
     </>
