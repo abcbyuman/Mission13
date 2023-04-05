@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 import TopBanner from './Blah';
 import MovieList from './Movies';
+import JoelHiltonHeadshot from './img/JoelHiltonHeadshot.jpg';
 /*import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';*/
 
 /* function Navigation() {
@@ -35,6 +36,7 @@ function App() {
 
     <div className="App">
       <TopBanner saying="Austins React Website - Main" />
+      <img src={JoelHiltonHeadshot} alt="Joel" />
       <MovieList />
     </div>
     /* </Router> */
