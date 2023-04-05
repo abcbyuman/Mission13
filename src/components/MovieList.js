@@ -7,7 +7,7 @@ const MovieList = () => {
 
   return (
     <>
-      <h1 style={{ color: 'green' }}>Movie List</h1>
+      <h1 style={{ color: 'darkred' }}>Movie List</h1>
       <MovieList1 />
     </>
   );

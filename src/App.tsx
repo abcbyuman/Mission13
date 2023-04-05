@@ -1,14 +1,10 @@
 //import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import TopBanner from './Blah';
-//import MovieList from './Movies';
-import JoelHiltonHeadshot from './img/JoelHiltonHeadshot.jpg';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Podcast from './components/Podcast';
 import Home from './components/Home';
 import MovieList from './components/MovieList';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 function Navigation() {
   return (
