@@ -22,7 +22,7 @@ function MovieList1() {
   return (
     <>
       <div>
-        <h1>Joel Hilton's Movie Collection</h1>
+        <h4>The Collection</h4>
       </div>
 
       <div>
