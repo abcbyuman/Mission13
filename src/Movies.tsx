@@ -34,6 +34,7 @@ function MovieList1() {
               <th>Director</th>
               <th>Rating</th>
               <th>Category</th>
+              <th>Edited</th>
             </tr>
           </thead>
           <tbody>
@@ -44,6 +45,7 @@ function MovieList1() {
                 <td>{m.Director}</td>
                 <td>{m.Rating}</td>
                 <td>{m.Category}</td>
+                <td>{m.Edited}</td>
               </tr>
             ))}
           </tbody>

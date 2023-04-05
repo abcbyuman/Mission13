@@ -8,19 +8,21 @@ import MovieList from './components/MovieList';
 
 function Navigation() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/Podcast">Podcast</Link>
-        </li>
-        <li>
-          <Link to="/MovieList">MovieList</Link>
-        </li>
-      </ul>
-    </nav>
+    <div className="navigation">
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/Podcast">My Podcasts</Link>
+          </li>
+          <li>
+            <Link to="/MovieList">MovieList</Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 
