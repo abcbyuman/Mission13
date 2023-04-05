@@ -1,9 +1,9 @@
-import data from './MovieDataSample.json';
+import data from './MovieData.json';
 import { useState } from 'react';
 
-const mds = data.MovieDataSampleList;
+const mds = data.MovieData;
 
-function MovieList() {
+function MovieList1() {
   const [listOMovies, setListOMovies] = useState(mds);
 
   const addMovie = () => {
@@ -57,4 +57,4 @@ function MovieList() {
   );
 }
 
-export default MovieList;
+export default MovieList1;
