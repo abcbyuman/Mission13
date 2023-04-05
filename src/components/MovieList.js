@@ -7,7 +7,10 @@ const MovieList = () => {
 
   return (
     <>
-      <h1 style={{ color: 'darkred' }}>Movie List</h1>
+      <div className="align">
+        <h1 style={{ color: 'darkred' }}>Movie List</h1>
+      </div>
+      <br />
       <MovieList1 />
     </>
   );

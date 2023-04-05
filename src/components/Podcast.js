@@ -6,8 +6,12 @@ const Podcast = () => {
 
   return (
     <>
-      <h1 style={{ color: 'darkgreen' }}>My Podcasts</h1>
-      <a href="https://baconsale.com/">Visit baconsale.come</a>
+      <div className="align">
+        <h1 style={{ color: 'darkgreen' }}>My Podcasts</h1>
+
+        <br />
+        <a href="https://baconsale.com/">Visit baconsale.come</a>
+      </div>
     </>
   );
 };

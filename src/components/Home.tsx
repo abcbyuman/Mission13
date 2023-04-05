@@ -21,7 +21,9 @@ const Home = () => {
 
   return (
     <>
-      <h1 style={{ color: 'darkblue' }}>The Joel Hilton Movie Collection</h1>
+      <div className="align">
+        <h1 style={{ color: 'darkblue' }}>The Joel Hilton Movie Collection</h1>
+      </div>
       <Render />
     </>
   );
