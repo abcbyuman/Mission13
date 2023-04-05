@@ -52,9 +52,11 @@ function MovieList1() {
         </table>
       </div>
 
-      <button className="btn btn-primary" onClick={addMovie}>
-        Add Movie
-      </button>
+      <div className="align">
+        <button className="btn btn-primary" onClick={addMovie}>
+          Add Movie
+        </button>
+      </div>
     </>
   );
 }
